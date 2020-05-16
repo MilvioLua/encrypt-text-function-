@@ -12,17 +12,15 @@ def encryption (phrase):
 
 print(encryption(input("Enter a phrase")))
 
-def descryption (descryptphrase):
+unccrypt = ""
+uword = "milvio"
+upass = 12
 
-    sword = 12
-    sphrase = "milvio"
-    descrypt = ""
+def unccryption (phrase):
+    if phrase == "12":
+        print(uword)
+    else:
+        print("wrong password try again")
+    return unccrypt
 
-    for letter in descryptphrase:
-        if descryptphrase == sword:
-            print(sphrase)
-        else:
-            print("worng enter again")
-
-    return descrypt
-print(descryption(input("Enter description")))
+print(unccryption(input("enter password")))
