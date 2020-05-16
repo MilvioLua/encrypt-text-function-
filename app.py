@@ -16,11 +16,14 @@ unccrypt = ""
 uword = "milvio"
 upass = 12
 
-def unccryption (phrase):
-    if phrase == "12":
+def unccryption (uphrase):
+    if uphrase == "12":
         print(uword)
+
     else:
         print("wrong password try again")
+
     return unccrypt
+
 
 print(unccryption(input("enter password")))
