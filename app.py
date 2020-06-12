@@ -30,9 +30,6 @@ def unccryption (uphrase):
 
 
 print(unccryption(input("enter password"))
-      
-      
-      
 
 def alphabet (genivaldo)
     alp = ["A E B DEFGHIJK"]
